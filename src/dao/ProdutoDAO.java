@@ -1,7 +1,6 @@
 package dao;
 
 import dao.jdbc.ConnectionFactory;
-import domain.Cliente;
 import domain.Produto;
 
 import java.sql.Connection;

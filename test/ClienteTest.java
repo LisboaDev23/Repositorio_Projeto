@@ -1,9 +1,6 @@
 import dao.ClienteDAO;
 import dao.IClienteDAO;
-import dao.IProdutoDAO;
-import dao.ProdutoDAO;
 import domain.Cliente;
-import domain.Produto;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -52,7 +49,7 @@ public class ClienteTest {
     }
     @Test
     public void buscarTodosTest()throws Exception {
-        IProdutoDAO dao = new ProdutoDAO();
+        IClienteDAO dao = new ClienteDAO();
         dao.buscarTodos();
     }
     @Test
